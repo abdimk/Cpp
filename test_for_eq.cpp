@@ -4,6 +4,7 @@ using namespace std;
 
 int main(){
     bool equal_result {false},not_equal_result{false};
+    cout << boolalpha;
 
     int num1{},num2{};
 
