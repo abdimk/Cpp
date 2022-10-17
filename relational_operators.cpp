@@ -12,7 +12,7 @@ int main(){
     cin >> num1;
     cout<< boolalpha;
     cout << num1 <<" > "<<upper_limit<<"is"<<(num1>upper_limit)<<endl;
-    
+    cout << "Enter an integer that is greater than "<<upper_limit<<":"<<endl;
 
    
 
