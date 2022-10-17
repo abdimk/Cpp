@@ -9,12 +9,12 @@ int main(){
     int num1{},num2;
     cout<< boolalpha;
 
-    cout << "Enter an integer that is greater than "<<upper_limit<<":"<<endl;
+    cout << "Enter an integer that is greater than "<<upper_limit<<":";
     cin >> num1;
-    cout << num1 <<" > "<<upper_limit<<"is"<<(num1>upper_limit)<<endl;
-    cout << "Enter an integer that is less than or equal to "<<upper_limit<<":"<<endl;
+    cout << num1 <<" > "<<upper_limit<<" is "<<(num1>upper_limit)<<endl;
+    cout << "Enter an integer that is less than or equal to "<<upper_limit<<": ";
     cin >> num2;
-    cout << num1 <<"<="<<upper_limit<<"is"<<(num1<=upper_limit)<<endl;
+    cout << num1 <<" <= "<<upper_limit<<" is "<<(num1 <=upper_limit)<<endl;
 
 
 
