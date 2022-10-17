@@ -4,17 +4,12 @@ using namespace std;
 
 
 int main(){
-    int num1{},num2{};
-    
-    cout << boolalpha;
+    const int upper_limit {10};
+    const int lower_limit {20};
 
-    cout<<"Enter two numbers:";
-    cin >> num1 >> num2;
-
-    cout<<"num1" <<" > "<< "num2 :"<< (num1 > num2)<<endl;
-    cout<<"num1" <<" < "<< "num2 :"<< (num1 < num2)<<endl;
-    cout<<"num1" <<" >="<< "num2 :"<< (num1 >= num2)<<endl;
-    cout<<"nu1" <<" <= "<< "num2 :"<< (num1 <= num2)<<endl;
+    cout << "Enter an integer that is greater than "<<upper_limit<<":"<<endl;
+    cin >> upper_limit;
+   
 
     return 0;
 }
