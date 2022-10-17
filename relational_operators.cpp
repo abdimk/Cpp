@@ -8,7 +8,12 @@ int main(){
     const int lower_limit {20};
 
     cout << "Enter an integer that is greater than "<<upper_limit<<":"<<endl;
-    cin >> upper_limit;
+    int num1{};
+    cin >> num1;
+    cout<< boolalpha;
+    cout << num1 <<" > "<<upper_limit<<"is"<<(num1>upper_limit)<<endl;
+    
+
    
 
     return 0;
