@@ -2,5 +2,4 @@
 C++ lessons exercise answers
 .
 .
-.
-.
+...
