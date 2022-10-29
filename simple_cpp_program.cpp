@@ -42,6 +42,7 @@ int main()
             cin >>  user_add;
             numbers.push_back(user_add);
             cout << "you have added number: "<<user_add<<endl;
+            cout <<"\n";
         }
         else if (options == 'M' || options=='m'){
             if(numbers.size() > 0){
@@ -53,23 +54,26 @@ int main()
                 average_item = total_item / numbers.size();
 
                 cout << "The mean item or the average of the data is:"<<average_item<<endl;
+                cout <<"\n";
             }
             else
                 cout <<"Unable to calculate the mean"<<endl;
+                cout <<"\n";
         }
         else if (options =='S' || options ==  's'){
             if(numbers.size() > 0){
-                int smallest {0};
-                vector <int> myinit {};
+                int smallest {numbers.at(0)};
                 for(auto i : numbers){
-                    if(i != 0 && i < smallest)
+                    if(i < smallest){
                         smallest = i;
-                        myinit.push_back(smallest);
-                        
+                    }
                 }
+                cout<<smallest<<endl;
+
             }
             else
                 cout<<"Unable to calculate the smallest number"<<endl;
+                cout<<"\n";
 
         }
         else if (options == 'L' || options =='l'){
